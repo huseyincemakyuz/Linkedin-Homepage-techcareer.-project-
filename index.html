@@ -23,7 +23,7 @@
     <!-- navbar - menü -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-background ">
         <a class="navbar-brand navbar-duzen" href="#">
-          <i class="fab fa-linkedin fa-lg" style="color: #0a66c2; font-size: 2.4rem"></i>
+          <i class="fab fa-linkedin fa-lg " style="color: #0a66c2; font-size: 2.4rem"></i>
         </a>
         <button
             class="navbar-toggler"
@@ -34,11 +34,11 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
         ></button>
-        <form class="form-inline">
+        <form class="form-text">
             <input
             class="form-control search "
             type="search"
-            placeholder="    Arama Yap" 
+            placeholder="       Arama Yap" 
             aria-label="Search"
             />
          </form>
@@ -46,36 +46,36 @@
          <ul class="navbar-nav mr-auto ml-4">
             <li class="nav-item active mr-3">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-home fa-lg" style="color: black">
-                        <div class="menutext" style="color: black">Ana Sayfa</div>
+                    <i class="fas fa-home fa-lg" style="color: rgb(0, 0, 0)">
+                        <div class="menutext mt-2" style="color: rgb(0, 0, 0);">Ana Sayfa</div>
                     </i>
                 </a>
             </li>
             <li class="nav-item active mr-4">
                 <a class="nav-link" href="#">
                     <i class="fas fa-user-friends fa-lg">
-                        <div class="menutext">Ağım</div>
+                        <div class="menutext mt-2">Ağım</div>
                     </i> 
                 </a>
             </li>
             <li class="nav-item active mr-2">
                 <a class="nav-link" href="#">
                     <i class="fas fa-briefcase fa-lg">
-                        <div class="menutext">İş İlanları</div>
+                        <div class="menutext mt-2">İş İlanları</div>
                     </i>
                 </a>
             </li>
             <li class="nav-item active mr-1">
                 <a class="nav-link" href="#">
                     <i class="fas fa-comment-dots fa-lg">
-                        <div class="menutext">Mesajlaşma</div>
+                        <div class="menutext mt-2">Mesajlaşma</div>
                     </i>
                 </a>
             </li>
             <li class="nav-item active mr-1">
                 <a class="nav-link" href="#">
                     <i class="fas fa-bell fa-lg">
-                        <div class="menutext">Bildirimler</div>
+                        <div class="menutext mt-2">Bildirimler</div>
                     </i>
                 </a>
             </li>
@@ -104,7 +104,10 @@
             <li class="nav-item active border-left mb-1">
                 <a class="nav-link ml-4 mr-2" href="#">
                     <i class="fas fa-th fa-lg "> 
-                        <div class="menutext">İş</div>
+                        <div class="menutext mt-2">
+                          İş 
+                        </div>
+                        
                     </i>
                 </a>
             </li>
@@ -124,7 +127,7 @@
         <!-- sol - kısım -->
         <div class="col-sm-2">
         <!-- sol-kısım-kart-1 -->
-        <div class="card" style="width: 14rem">
+        <div class="card" style="width: 14rem;">
             <div class="card-header card-header-one">
               <img class="card-left-one" src="assets/images/pp.jpg" />
             </div>
@@ -135,22 +138,32 @@
                 <div class="card-left-one-text">
                    Mathematics MSc - YTU
                 </div>
-                
-                <hr />
-                
-                <div class="card-text">
-                    <span class="view" style="color: rgb(151, 150, 150);">bağlantı</span>
-                    <span class="float-right view mt-1" style="color: #0a66c2">23</span> <br>
-                    <span class="float-left view" style=" color: rgba(32, 32, 32, 0.918);">İletişim ağınızı büyültün</span>
-                </div>
             </div>
-                <div class="card-footer">
-                    <i class="fas fa-bookmark"></i>
-                    <span class="mb-4 ml-2">Ögelerim</span>
-                </div>
+              
+            <div class="card-footer" style="background-color: white;">
+                <span class="left-side text-color">bağlantı</span>
+                <span class="float-right left-side mt-1" style="color: #0a66c2">23</span> <br>
+                <span class="float-left left-side text-color">İletişim ağınızı büyültün</span>
+            </div>
+
+            <div class="card-footer"  style="background-color: white;">
+                <span class="left-side font-weight-normal">Özel araç ve içgörülere erişin</span> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="18" height="18" focusable="false">
+                  <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                  <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                </svg>
+                <span class="left-side" style=" color: rgba(32, 32, 32, 0.918);">Premium'u ücretsiz deneyin</span>
+                
+            </div>
+
+            <div class="card-footer"  style="background-color: white;">
+                <i class="fas fa-bookmark"></i>
+                <span class="mb-4 ml-2 left-side text-color">Ögelerim</span>
+            </div>
         </div>
+       
         <!-- sol-kısım-kart-2 -->
-        <div class="card mt-2 overflow-auto sticky-top card-left-two">
+        <div class="card mt-2 overflow-auto sticky-top card-left-two" style="border-radius: 10px;">
          <div class="">
             <div class="card-header bg-white border-0 " style="font-size: 12px">
               En Yeni
@@ -158,22 +171,34 @@
             <div class="card-body">
               <div class="card-title" >
                 <div class="card-left-two-text" style="font-weight: normal;">Gruplar</div>
-                <span class="mt-3 card-left-two-text " style="font-weight: normal;" >Etkinlikler</span>
+                <span class="card-left-two-text " style="font-weight: normal;" >Etkinlikler</span>
                 <span
                   class="float-right mb-5"
                   style="font-size: 23px; color: #5f5f5f"
                   >+</span
                 >
                 <div class="mt-3 card-left-two-text"  style="font-weight: normal;">Takip edilen hashtagler</div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i
+                  ><span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >bilişim teknolojileri</span
+                  >
+                </div>
               </div>
             </div>
           
-            <div class="card-footer"> Daha fazla keşfet</div>
+            <div class="card-footer" style="background-color: white; text-align: center;color:rgb(118 118 118)"> Daha fazla keşfet</div>
           </div>
         </div>
         </div>
 
         <!-- orta - kısım -->
+        <!-- mediatext -->
         <div class="col-6 ml-5">
           <div class="card">
             <div class="card-body ">
@@ -187,7 +212,7 @@
               </div>
             <div class="d-flex">
               <span>
-                <button class="mediatext  btn btn-light  ">
+                <button class="mediatext  btn btn-outline  ">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" >
                         <path  style="fill:#70B5F9" d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
                     </svg>
@@ -196,7 +221,7 @@
               </span
               >
               <span>
-                <button class="mediatext btn btn-light ml-3">
+                <button class="mediatext btn btn-outline ml-3">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
                       <path style="fill: #7FC15E;" d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
                     </svg>
@@ -204,14 +229,14 @@
                 </button>
               </span>
               <span>
-                <button class="mediatext btn btn-light ml-3" >
+                <button class="mediatext btn btn-outline ml-3" >
                     <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" >
                       <path style="fill:#E7A33E"  d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
                     </svg><span class="ml-1 mediatext">Etkinlik</span>
                 </button>
               </span>
               <span>
-                  <button class="mediatext btn btn-light ml-3" >
+                  <button class="mediatext btn btn-outline ml-3" >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="" width="24" height="24" focusable="false">
                       <path style="fill:#F5987E" d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
                     </svg><span class="ml-1 mediatext">Yazı yaz</span>
@@ -222,30 +247,36 @@
           <div>
             <hr />
           </div>
+          
+          <!-- içerik kısmı -->
           <div class="card">
             <div class="card-header d-flex justify-content-lg-between bg-white border-0">
-                <div class="d-flex  ">
-                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGiWpTUewQ76Q/profile-displayphoto-shrink_100_100/0/1613923672228?e=1640217600&v=beta&t=eCbGUIh4P3oe3FTBAlqUg5iMgVA0L4wannKzkHJPN3Y" class="postphoto">
+                <div class="d-flex">
+                    <img src="assets/images/techcareer-pp.jpg" class="postphoto">
                         <div class="d-flex flex-column ">
-                          <span class="posttext align-top"> <a href="https://www.linkedin.com/in/malan/" target="_blank" style="color: #212529;">David J. Malan</a></span>
-                          <span class=" ml-2 align-middle m-0 p-0 postphoto-text">I teach CS50</span>
-                          <span class=" ml-2 align-bottom my-n2 postphoto-text">25a  <i class="fas fa-globe-americas fa-sm"></i></span>
+                          <span class="posttext align-top"> <a href="https://www.linkedin.com/in/malan/" target="_blank" style="color: #212529;">Techcareer.net</a></span>
+                          <span class=" ml-2 align-middle m-0 p-0 postphoto-text">1.751 takipçi</span>
+                          <span class=" ml-2 align-bottom my-n2 postphoto-text">5 gün  <i class="fas fa-globe-americas fa-sm"></i></span>
                         </div>
                 </div>
-                  <div class="d-flex flex-column ">
-                      <span class="float-right ">
-                        <i class="fas fa-ellipsis-h fa-md"></i>
-                      </span>
-                  </div>
-              </div>
+                <div class="d-flex flex-column ">
+                    <span class="post-icon">
+                      <i class="fas fa-ellipsis-h fa-md"></i>
+                    </span>
+                </div>
+            </div>
             
              <div>
-              <p class="card-text ml-3 mt-2" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black; font-weight: 500;">
-                They have done great things! Tebrikler Kodluyoruz!
+              <p class="card-text ml-3 mt-2">
+                Coder Baykuşlar, assemble! 🦸‍♀️🦸 21 Aralık en uzun gecede yapılabilecekleri sıralıyorum: <br> <br>
+              📌 To do'larımızı temizlemek <br>
+              📌 Yeni bir eğitime başlamak <br>
+              📌 Açık kaynak kod keşfine çıkmak <br>
+              📌 Coder dostunuza ilham veren bir projeden bahsetmek
               </p>
               <div>
               <img
-                src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg"
+                src="assets/images/techcareer.jpg"
                 class="card-img-top mb-1"
                 alt="..."
               />
@@ -253,33 +284,41 @@
               <span class="ml-3"><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
               <span><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
               <span class="postphoto-text"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
-              <div class="card-footer bg-white mt-1">
+              <div class="card-footer bg-white mt-1 mediatext-position">
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext ">Beğen</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                    </svg>
+                      <span class="mediatext ">Beğen</span>
                     </i>
                   </button>
                 </span>
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="far fa-comment fa-md " style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Yorum Yap</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                    </svg>
+                      <span class="mediatext">Yorum Yap</span>
                     </i>
                   </button>
                 </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="fas fa-share fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Paylaş</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                    </svg>
+                      <span class="mediatext">Paylaş</span>
                     </i>
                   </button>
                 </span>
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Gönder</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                    </svg>
+                      <span class="mediatext">Gönder</span>
                     </i>
                   </button>
                 </span>
@@ -289,25 +328,27 @@
           <div class="card mt-2">
             <div class="card-header  d-flex justify-content-lg-between bg-white border-0">
               <div class="d-flex ">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHnKB8mDzkLfg/profile-displayphoto-shrink_100_100/0/1629708170546?e=1640217600&v=beta&t=0MwI_n5y4UuRU_kBLcURBlvpq009Gr-MOKonx3fgNSY" class="postphoto">
+                  <img src="assets/images/nodejs-pp.jfif" class="postphoto">
                   <div class="d-flex flex-column">
-                      <span class="posttext"><a href="https://www.linkedin.com/in/ozanhalis/" target="_blank" style="color: #212529;">Ozan Halis İLTER</a></span>
-                      <span class="ml-2 align-middle postphoto-text">Team Leader at YetGen | CodeCraft | Kablosuz Beyin | IEEE MEF...</span>
-                      <span class="ml-2 align-bottom my-n2 postphoto-text">1s  <i class="fas fa-globe-americas fa-sm"></i></span>
+                      <span class="posttext"><a href="https://www.linkedin.com/in/ozanhalis/" target="_blank" style="color: #212529;">Node.js</a></span>
+                      <span class="ml-2 align-middle postphoto-text">157.621 takipçi</span>
+                      <span class="ml-2 align-bottom my-n2 postphoto-text">9 ay  <i class="fas fa-globe-americas fa-sm"></i></span>
                   </div>
                   <div class="d-flex flex-column">
-                    <span class="float-right">
+                    <span class="post-icon">
                       <i class="fas fa-ellipsis-h fa-md ml-5"></i>
                     </span>
                   </div>
               </div>
             </div>
             <div>
-              <p class="card-text ml-2 mt-2" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;  font-weight: 500;">
-                Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak için geliyoruz!
+              <p class="card-text ml-2 mt-2">
+                🎉 Node.js had a very successful first 10 years and the project is working to make the next 10 years even better. We’ve begun working to define what we think is important for that to happen.
+                <br><br>
+                👉 Please take our survey to help shape the future of Node.js.
               </p>
               <div>
-                <img class="card-img-top mb-1" src="https://miro.medium.com/max/1080/1*gdDWFSvHDt57DS2zsh_0Bg.png" alt="..."/>
+                <img class="card-img-top mb-1" src="assets/images/nodejs.jfif" alt="..."/>
               </div>
 
               <span class="ml-3">
@@ -319,35 +360,44 @@
               <span class="postphoto-text">
                 <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  210
               </span>
-              <div class="card-footer bg-white mt-1">
+              
+              <div class="card-footer bg-white mt-1 mediatext-position">
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="far fa-thumbs-up fa-md " style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Beğen</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                    </svg>
+                      <span class="mediatext">Beğen</span>
                     </i>
                   </button>
                 </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="far fa-comment fa-md " style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Yorum Yap</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                    </svg>
+                      <span class="mediatext">Yorum Yap</span>
                     </i>
                   </button>
                 </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="fas fa-share fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Paylaş</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                    </svg>
+                      <span class="mediatext">Paylaş</span>
                     </i>
                   </button>
                 </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Gönder</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                    </svg>
+                      <span class="mediatext">Gönder</span>
                     </i>
                   </button>
                 </span>
@@ -358,14 +408,14 @@
             <div class="card mt-2">
             <div class="card-header d-flex justify-content-lg-between bg-white border-0">
               <div class="d-flex ">
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQFOc4FfGSHrgw/profile-displayphoto-shrink_100_100/0/1619210485825?e=1640217600&v=beta&t=qGulrRfeXsy9TehUpHoD0LNqqaovkJr3C4hboF03_Ek" class="postphoto">
+                <img src="assets/images/jsdeveloper-pp.jfif" class="postphoto">
                 <div class="d-flex flex-column">
-                    <span class="posttext"><a href="https://www.linkedin.com/in/ramazansancar/" target="_blank" style="color: black;">Ramazan Sancar</a></span>
-                    <span class="ml-2 align-middle m-0 p-0 postphoto-text">Co-Founder at Kablosuz Beyin | Intern & Community Lead at Kod...</span>
-                    <span class="ml-2 align-bottom my-n2 postphoto-text" >25a  <i class="fas fa-globe-americas fa-sm"></i></span>
+                    <span class="posttext"><a href="https://www.linkedin.com/in/ramazansancar/" target="_blank" style="color: black;">JavaScript Developer</a></span>
+                    <span class="ml-2 align-middle m-0 p-0 postphoto-text">390.856 takipçi</span>
+                    <span class="ml-2 align-bottom my-n2 postphoto-text" >3 gün  <i class="fas fa-globe-americas fa-sm"></i></span>
                 </div>
                   <div class="d-flex flex-column">
-                    <span class="float-right ml-5">
+                    <span class="post-icon">
                         <i class="fas fa-ellipsis-h fa-md"></i>
                       </span>
                   </div>
@@ -373,46 +423,51 @@
             </div>
 
             <div>
-              <p class="card-text ml-3 mt-2" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: #212529; font-weight: 500;">
-                Cat Özel Harekat'a katılmak isteyenleri şöyle alalım..
+              <p class="card-text ml-3 mt-2">
+                Positive morning affirmations for a successful start to the day
               </p>
               <div>
-              <img
-                src="https://picsum.photos/200/150"
-                class="card-img-top mb-1"
-                alt="..."
+              <img src="assets/images/jsdeveloper.jfif" class="card-img-top mb-1" alt="..."
               />
               </div>
               <span class="ml-3"><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
               <span><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
               <span class="postphoto-text"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  224</span>
-              <div class="card-footer bg-white mt-1">
+              <div class="card-footer bg-white mt-1 mediatext-position">
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Beğen</span>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                    </svg>
+                      <span class="mediatext">Beğen</span>
                     </i>
                   </button>
                 </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="far fa-comment fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Yorum Yap</span></i>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                    </svg>
+                      <span class="mediatext">Yorum Yap</span></i>
                     </button>
                 </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="fas fa-share fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Paylaş</span></i>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                    </svg>
+                      <span class="mediatext">Paylaş</span></i>
                     </button>
                   </span>
                 
                 <span>
-                  <button class="ref btn btn-light">
-                    <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
-                      <span class="ml-2 mediatext">Gönder</span></i>
+                  <button class="ref btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="gray" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                    </svg>
+                      <span class="mediatext">Gönder</span></i>
                     </button>
                 </span>
               </div>
@@ -422,7 +477,7 @@
 
         <!-- sağ-kısım-kart-1 -->
         <div class="col-sm-3">
-          <div class="card" style="width: 20rem; height: 420px;">
+          <div class="card" style="width: 20rem; height: 390px;">
             <div class="card-header bg-white border-0">
               <span style="font-weight:500;">Akışınıza ekleyin</span>
               <span>
@@ -439,7 +494,7 @@
                   <span class="posttext">
                     <a href="https://www.linkedin.com/in/ramazansancar/" target="_blank" style="color: black;">Beyhan Budak</a>
                   </span>
-                  <span class="ml-2 align-middle m-0 p-0 postphoto-text">Fenomen Psikoloji-Eğitim ve Danışmanlık <br>  Merkezi şirketinde Klinik Psikolog</span>
+                  <span class="ml-2 align-middle m-0 p-0 postphoto-text">Fenomen Psikoloji-Danışmanı</span>
                 </div>
                </span>
 
@@ -489,11 +544,6 @@
               </div>
             </div>
             </div>
-           
-            <!-- sağ-kısım-kart-2 -->
-            <!-- <div class="card-footer bg-white border-0" style="font-size: 14px;">
-              <strong></strong>
-            </div> -->
           </div>
          
           <div class="card mt-2 card-right-two">
@@ -577,9 +627,9 @@
       /></a>
       <span style="font-size: 14px;font-family:Arial, Helvetica, sans-serif; font-weight: bold;">Mesajlaşma</span>
       <span class="offset-2"></span>
-      <span><i class="fas fa-ellipsis-h fa-sm mr-3"></i></span>
-      <span><i class="far fa-edit fa-sm mr-3"></i></span>
-      <span><i class="fas fa-chevron-up fa-sm "></i></span>
+      <span><i class="fas fa-ellipsis-h fa-sm ml-3 footer-icon"></i></span>
+      <span><i class="far fa-edit fa-sm ml-3 footer-icon"></i></span>
+      <span><i class="fas fa-chevron-up fa-sm ml-3 footer-icon"></i></span>
     </nav>
   </body>
 </html>

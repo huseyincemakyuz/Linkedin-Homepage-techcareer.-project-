@@ -37,15 +37,15 @@ li {
 }
 
 .menu-duzen {
-  margin-left: 190px;
+  margin-left: 90px;
 }
 
 .menutext {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
-  color: gray;
+  color: rgba(3, 3, 3, 0.849);
   margin-top: 5px;
-  font-weight: lighter;
+  font-weight: 600;
 }
 
 .menu-pp {
@@ -75,7 +75,7 @@ i:hover {
 
 input.search {
     height: 36px;
-    max-width: 500px;
+    width: 290px;
     background-color: #eef3f8;
     border: 0;
 }
@@ -83,7 +83,7 @@ input.search {
 input.search::placeholder {
     font-size: 14px;
     color: gray;
-    background-image:  url(assets/images/search-solid.svg);
+    background-image:  url(../images/search-alt-2-regular-60.png);
     background-repeat: no-repeat;
     background-size: 8%;
 }
@@ -113,13 +113,14 @@ input.content::placeholder {
   font-weight: bolder;
 }
 
-div.card {
-  border-radius: 10px;
+.card {
+  border-radius: 70px;
 }
 /******************* sol - kısım *************************/
 .card-header-one{
-  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
-  height: 53px;
+  height:56px;
+  background-image: url(https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq);
+  background-size: cover;
 }
 
 .card-left-one{
@@ -148,17 +149,43 @@ div.card {
   color: #0a66c2;
 }
 
+.left-side {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #5f5f5f;
+}
+
+.text-color {
+  color: rgb(151, 150, 150);
+}
+
 /******************* orta-kısım *************************/
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-size: 15px; 
+  color: #212529; 
+  font-weight: 400;
+}
 .middlepart-pp{
   height: 55px;
   border-radius: 50%;
   border: 2px solid #f7f7f7;
 }
 .mediatext {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: #5f5f5f;
+}
+
+.mediatext-position{
+  text-align: center;
+}
+
+.post-icon {
+  margin-left: 17.7rem;
 }
 
 button.mediatext {
@@ -189,13 +216,7 @@ button.mediatext:hover {
   color: #474747;
 }
 
-.view {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  color: #5f5f5f;
-}
+
 
 button.ref {
   color: white;
@@ -217,7 +238,6 @@ button.ref:hover {
 .card-right-one > button {
   border-radius: 50px ;
   margin-left: 55px;
-  margin-top: 5px; 
   color:rgba(0, -1, 0, 0.6);
   border-color:rgba(0, -1, 0, 0.6)
 }
@@ -225,6 +245,13 @@ button.ref:hover {
 .card-right-two{
   width: 319px;
 }
+
+/************************************** mesajlaşma kısmı *********************************************/
+
+.footer-icon{
+  color: hsl(0deg 0% 40%);
+}
+
   
 
 
