@@ -26,7 +26,6 @@ li {
 .active{
   color:rgb(0, 0, 0) !important;
   border-bottom: 1px solid ;
-
 }
 .navbar-background {
     height: 55px;
